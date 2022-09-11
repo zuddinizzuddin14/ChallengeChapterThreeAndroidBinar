@@ -8,10 +8,6 @@ import com.example.challengechapter3.withoutnavigation.WithoutNavHurufFragment
 
 class MainActivity : AppCompatActivity() {
 
-    companion object {
-        val INTENT_PARCELABLE = "OBJECT_INTENT"
-    }
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
