@@ -7,13 +7,20 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rvItemHuruf"
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/containerFragment"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:listitem="@layout/item_huruf"/>
+        android:layout_height="match_parent"/>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+<!--<androidx.recyclerview.widget.RecyclerView-->
+<!--android:id="@+id/rvItemHuruf"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="match_parent"-->
+<!--tools:listitem="@layout/item_huruf"/>-->
+
 
 <!--<androidx.recyclerview.widget.RecyclerView-->
 <!--android:id="@+id/rvItemHuruf"-->
