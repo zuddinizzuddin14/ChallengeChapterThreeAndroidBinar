@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/withNavHurufFragment">
+
+    <fragment
+        android:id="@+id/withNavHurufFragment"
+        android:name="com.example.challengechapter3.withnavigation.WithNavHurufFragment"
+        android:label="withNavHurufFragment">
+        <action
+            android:id="@+id/action_withNavHurufFragment_to_withNavDetailHurufFragment"
+            app:destination="@id/withNavDetailHurufFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/withNavDetailHurufFragment"
+        android:name="com.example.challengechapter3.withnavigation.WithNavDetailHurufFragment"
+        android:label="withNavDetailHurufFragment" />
+</navigation>
